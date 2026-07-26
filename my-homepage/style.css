@@ -1,0 +1,90 @@
+/* ====共通設定==== */
+body {
+    background-color: #a6d0eb;
+    color: #39418a;
+    font-family: "Yu Mincho", serif;
+    max-width: 700px;
+    margin: 50px auto;
+    line-height: 1.8;
+}
+
+/* ====タイトル==== */
+h1 {
+    text-align: center;
+    color: #676ac9;
+}
+
+/* ====トップページ==== */
+.home-title {
+    text-align: center;
+    color: #676ac9;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+} 
+
+
+img {
+    display: block;
+    margin-bottom: 30px;
+}
+
+a {
+    display: inline;
+}
+
+.menu a ,
+.sns a{
+    display: inline-block;
+    margin: 6px 0;
+    color: #8b5e3c;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.menu a:hover ,
+.sns a:hover{
+    color: #5d3a1a;
+    transform: translateX(6px);
+    text-decoration: underline;
+}
+
+/* ====プロフィール==== */
+.profile-video {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* ====日記==== */
+.entry {
+  margin: 16px 0;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+.entry h3 {
+    margin:  0;
+    color: #676ac9;
+    font-size:  16px;
+}
+
+details {
+  margin-top: 20px;
+}
+
+/* ====リンク==== */
+a {
+    color: #8b5e3c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5d3a1a;
+    text-decoration: underline;
+}
