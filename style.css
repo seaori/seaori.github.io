@@ -119,6 +119,20 @@ details {
   display: block;
 }
 
+
+.diary-photos {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.diary-photos img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
 /* ====リンク==== */
 a {
     color: #8b5e3c;
