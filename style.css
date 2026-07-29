@@ -93,6 +93,30 @@ details {
   display: contents;
 }
 
+.diary-photos {
+  width: 90%;
+  margin: auto;
+}
+
+.main-photo {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.sub-photos {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.sub-photos img {
+  width: 50%;
+  height: 250px;
+  object-fit: cover;
+}
+
+
 /* ====リンク==== */
 a {
     color: #8b5e3c;
