@@ -93,7 +93,7 @@ details {
   display: contents;
 }
 
-
+/* ====日記写真==== */
 .diary-photos {
   width: 90%;
   max-width: 600px;
@@ -118,6 +118,28 @@ details {
   object-fit: cover;
 }
 
+.diary-photos {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.diary-photos img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.sub-photos {
+  display: block;
+}
+
+.sub-photos img {
+  width: 100%;
+  height: 250px;
+}
 /* ====リンク==== */
 a {
     color: #8b5e3c;
