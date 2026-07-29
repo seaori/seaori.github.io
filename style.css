@@ -101,6 +101,15 @@ details {
   margin: 0 auto;
 }
 
+/* 通常 */
+.diary-photos > img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* メイン写真 */
 .main-photo {
   width: 100%;
   height: auto;
@@ -108,6 +117,7 @@ details {
   margin-bottom: 20px;
 }
 
+/* サブ2枚 */
 .sub-photos {
   display: flex;
   gap: 15px;
@@ -119,32 +129,20 @@ details {
   display: block;
 }
 
+/* スマホ */
+@media (max-width: 600px) {
+  .diary-photos {
+    width: 90%;
+  }
 
-.diary-photos {
-  width: 90%;
-  max-width: 600px;
-  margin: 0 auto;
+  .sub-photos {
+    flex-direction: column;
+  }
+
+  .sub-photos img {
+    width: 100%;
+  }
 }
-
-.diary-photos img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 20px;
-}
-
-
-.diary-photos {
-  width: 400px !important;
-  margin: 0 auto !important;
-}
-
-.diary-photos img {
-  width: 400px !important;
-  max-width: 400px !important;
-  height: auto !important;
-}
-
 /* ====リンク==== */
 a {
     color: #8b5e3c;
