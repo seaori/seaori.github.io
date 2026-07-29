@@ -133,6 +133,18 @@ details {
   margin-bottom: 20px;
 }
 
+
+.diary-photos {
+  width: 400px !important;
+  margin: 0 auto !important;
+}
+
+.diary-photos img {
+  width: 400px !important;
+  max-width: 400px !important;
+  height: auto !important;
+}
+
 /* ====リンク==== */
 a {
     color: #8b5e3c;
