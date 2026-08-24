@@ -53,14 +53,14 @@ a {
     text-decoration: underline;
 }
 
-.photos {
+.top-photos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
-.photos img {
-  width: 100%;
+.top-photos img {
+  width: 80%;
   height: auto;
   display: block;
 }
