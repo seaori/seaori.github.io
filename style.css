@@ -113,6 +113,15 @@ details {
   margin: 0 auto;
 }
 
+.photos {
+  display: flex;
+  gap: 10px;
+}
+
+.photo {
+  width: 150px;
+}
+
 /* 通常 */
 .diary-photos > img {
   width: 100%;
