@@ -113,12 +113,12 @@ details {
   margin: 0 auto;
 }
 
-.photos {
+.diary-photos {
   display: flex;
   gap: 10px;
 }
 
-.photo {
+.diary-photos {
   width: 150px;
 }
 
