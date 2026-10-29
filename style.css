@@ -105,16 +105,16 @@ details {
   display: contents;
 }
 
-/* ====日記写真==== */
+/* ====写真==== */
 
-.diary-photos {
+.enntry-photos {
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
 }
 
 /* 通常 */
-.diary-photos > img {
+.enntry-photos > img {
   width: 100%;
   height: auto;
   display: block;
