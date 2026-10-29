@@ -105,7 +105,7 @@ details {
   display: contents;
 }
 
-/* ====写真==== */
+/* ====全体写真==== */
 
 .entry-photos {
   width: 90%;
@@ -116,7 +116,7 @@ details {
 /* 通常 */
 .entry-photos > img {
   width: 100%;
-  max-width: 100%;
+  max-width: 350px;
   height: auto;
   display: block;
   margin-bottom: 20px;
