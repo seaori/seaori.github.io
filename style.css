@@ -107,14 +107,14 @@ details {
 
 /* ====写真==== */
 
-.enntry-photos {
+.entry-photos {
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
 }
 
 /* 通常 */
-.enntry-photos > img {
+.entry-photos > img {
   width: 100%;
   max-width: 100%;
   height: auto;
